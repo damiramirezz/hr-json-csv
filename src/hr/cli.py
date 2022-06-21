@@ -9,7 +9,7 @@ def create_parser():
 def main():
     import sys
     from hr import export
-    from hr import user as u
+    from hr import users as u
 
     args = create_parser().parse_args()
     users = u.fetch_users()
